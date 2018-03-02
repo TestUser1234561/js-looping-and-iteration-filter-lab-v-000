@@ -8,7 +8,7 @@ function fuzzyMatch(arr, name) {
     for(let i = 0; i < name.length; i++) {
       if(name[i] !== word[i]) { return false; }
     }
-    return true
+    return true;
   })
 }
 
