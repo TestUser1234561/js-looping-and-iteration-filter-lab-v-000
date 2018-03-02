@@ -12,6 +12,6 @@ function fuzzyMatch(arr, name) {
   })
 }
 
-function matchName() {
-
+function matchName(obj, name) {
+    obj.filter()
 }
