@@ -13,5 +13,5 @@ function fuzzyMatch(arr, name) {
 }
 
 function matchName(arr, name) {
-  return arr.filter(obj => obj.name == name)
+  return arr.filter(obj => obj.name === name)
 }
