@@ -11,5 +11,6 @@ function fuzzyMatch(arr, name) {
         return false
       }
     }
+    return true
   })
 }
