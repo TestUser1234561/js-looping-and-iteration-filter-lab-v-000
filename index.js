@@ -2,3 +2,7 @@
 function findMatching(arr, name) {
   return arr.filter(word => word.toLowerCase() === name.toLowerCase())
 }
+
+function fuzzyMatch(arr, name) {
+
+}
