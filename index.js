@@ -4,5 +4,11 @@ function findMatching(arr, name) {
 }
 
 function fuzzyMatch(arr, name) {
-
+  return arr.filter((word) => {
+    for(let i = 0; i < name.length; i++) {
+      if(name[i] !== word[i]) {
+        return false
+      }
+    }
+  })
 }
